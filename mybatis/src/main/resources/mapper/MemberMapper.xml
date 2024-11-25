@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.MemberMapper">
+    <resultMap id="memberResult" type="com.example.demo.model.Member">
+        <result column="name" property="name"/>
+        <result column="email" property="email"/>
+        <result column="age" property="age"/>
+    </resultMap>
+    <select id="findAll" resultMap="memberResult">
+        SELECT * FROM member;
+    </select>
+    <select id="findAllOrderBy" resultMap="memberResult">
+        SELECT * FROM member ORDER BY ${order} ${dir}
+    </select>
+    <select id="findById" resultMap="memberResult">
+        SELECT * FROM member WHERE id=#{id}
+    </select>
+    <select id="findByName" resultMap="memberResult">
+        SELECT * FROM member WHERE name=#{name}
+    </select>
+    <select id="findAllOrderByAgeAscNameAsc" resultMap="memberResult">
+        SELECT * FROM member ORDER BY age ASC, name ASC
+    </select>
+    <insert id="insert" useGeneratedKeys="true" keyProperty="member.id" keyColumn="id">
+        INSERT INTO member(name, email, age) VALUES(#{member.name}, #{member.email}, #{member.age})
+    </insert>
+</mapper>

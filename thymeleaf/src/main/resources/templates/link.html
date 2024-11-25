@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+  <li><a href="/message" th:href="@{/message(id=${id})}">메시지 테스트</a></li>
+  <li><a href="/message" th:href="@{/message/{id}/name/{name}/list(id=${id}, name=${name})}">메시지 테스트</a></li>
+</ul>
+</body>
+</html>

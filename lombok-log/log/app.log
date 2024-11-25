@@ -1,0 +1,14 @@
+2024-10-14T14:39:06.143+09:00  INFO 11620 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.12 with PID 11620 (C:\lecture\demo-lombok\build\classes\java\main started by student in C:\lecture\demo-lombok)
+2024-10-14T14:39:06.143+09:00  INFO 11620 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-10-14T14:39:06.455+09:00  INFO 11620 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 0.582 seconds (process running for 0.78)
+2024-10-14T14:39:06.471+09:00  INFO 11620 --- [demo] [main] com.example.demo.DemoApplication         : same
+2024-10-14T14:39:06.471+09:00  INFO 11620 --- [demo] [main] com.example.demo.DemoApplication         : info level log
+2024-10-14T14:39:06.471+09:00  WARN 11620 --- [demo] [main] com.example.demo.DemoApplication         : warn level log
+2024-10-14T14:39:06.471+09:00 ERROR 11620 --- [demo] [main] com.example.demo.DemoApplication         : error level log
+2024-11-25T20:07:42.560+09:00  INFO 32100 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.13 with PID 32100 (D:\multicampus\lecture\lombok-log\build\classes\java\main started by citycat in D:\multicampus\lecture\lombok-log)
+2024-11-25T20:07:42.562+09:00  INFO 32100 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-11-25T20:07:42.815+09:00  INFO 32100 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 0.492 seconds (process running for 0.72)
+2024-11-25T20:07:42.817+09:00  INFO 32100 --- [demo] [main] com.example.demo.DemoApplication         : same
+2024-11-25T20:07:42.817+09:00  INFO 32100 --- [demo] [main] com.example.demo.DemoApplication         : info level log
+2024-11-25T20:07:42.817+09:00  WARN 32100 --- [demo] [main] com.example.demo.DemoApplication         : warn level log
+2024-11-25T20:07:42.817+09:00 ERROR 32100 --- [demo] [main] com.example.demo.DemoApplication         : error level log
