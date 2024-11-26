@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bbs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/bbs.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/crud-member.main.iml" filepath="$PROJECT_DIR$/.idea/modules/crud-member.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpa.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jpa.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpa.test.iml" filepath="$PROJECT_DIR$/.idea/modules/jpa.test.iml" />
@@ -13,7 +12,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/querydsl.main.iml" filepath="$PROJECT_DIR$/.idea/modules/querydsl.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/security.main.iml" filepath="$PROJECT_DIR$/.idea/modules/security.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-jdbc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-jdbc.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thymeleaf.main.iml" filepath="$PROJECT_DIR$/.idea/modules/thymeleaf.main.iml" />
     </modules>
   </component>
 </project>
